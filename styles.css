@@ -1,5 +1,6 @@
 body {
   font-family: 'Saira Condensed', sans-serif;
+  line-height: 1.5;
 }
 
 header {
@@ -10,8 +11,9 @@ header {
   margin-bottom: 30px;
 }
 
-main {
-
+h2 {
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .layout {
@@ -29,9 +31,6 @@ main {
 
 .featuredClass--title {
   background-color: #f48466;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 2em;
   padding: 8px;
 }
 
@@ -39,11 +38,31 @@ main {
   background-color: #fff;
   padding: 8px;
   font-size: 1em;
-  line-height: 1.5;
 }
 
 .featuredClass--link {
   margin-top: 8px;
   display: block;
   font-size: 1.5em;
+}
+
+.links--item {
+  display: flex;
+}
+
+.links--link {
+  font-size: 1.3em;
+}
+
+.links--slack {
+  height: 2em;
+
+}
+
+.links--apple {
+  width: 2em;
+  height: 2em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
