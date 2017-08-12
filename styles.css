@@ -1,0 +1,49 @@
+body {
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6em;
+  margin-bottom: 30px;
+}
+
+main {
+
+}
+
+.layout {
+  min-width: 500px;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.featuredClass {
+  border: 6px solid #f48466;
+  border-radius: 6px;
+  margin-bottom: 20px;
+
+}
+
+.featuredClass--title {
+  background-color: #f48466;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 8px;
+}
+
+.featuredClass--description {
+  background-color: #fff;
+  padding: 8px;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.featuredClass--link {
+  margin-top: 8px;
+  display: block;
+  font-size: 1.5em;
+}
