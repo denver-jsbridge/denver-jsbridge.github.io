@@ -11,6 +11,10 @@ header {
   margin-bottom: 30px;
 }
 
+header a {
+  display: flex;
+}
+
 h2 {
   font-weight: bold;
   font-size: 2em;
@@ -23,13 +27,15 @@ h2 {
 }
 
 main {
-  min-height: calc(100vh - 164px - 60px);
+  min-height: calc(100vh - 164px - 70px);
 }
 
 footer {
   min-height: 40px;
   background-color: #f48466;
   margin-top: 20px;
+  margin-bottom: 10px;
   box-sizing: border-box;
   padding: 8px;
+  border-radius: 2px;
 }
