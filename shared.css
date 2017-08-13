@@ -17,9 +17,9 @@ h2 {
 }
 
 .layout {
-  min-width: 500px;
-  padding-left: 10em;
-  padding-right: 10em;
+  min-width: 404px;
+  padding-left: 12em;
+  padding-right: 12em;
 }
 
 main {
@@ -27,7 +27,7 @@ main {
 }
 
 footer {
-  height: 40px;
+  min-height: 40px;
   background-color: #f48466;
   margin-top: 20px;
   box-sizing: border-box;
