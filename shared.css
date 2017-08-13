@@ -1,0 +1,23 @@
+body {
+  font-family: 'Saira Condensed', sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6em;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.layout {
+  min-width: 500px;
+  padding-left: 10em;
+  padding-right: 10em;
+}
