@@ -1,6 +1,9 @@
 body {
   font-family: 'Saira Condensed', sans-serif;
   line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
 }
 
 header {
@@ -22,19 +25,17 @@ h2 {
 
 .layout {
   min-width: 404px;
-  padding-left: 12em;
-  padding-right: 12em;
+  max-width: 1000px;
 }
 
 main {
-  min-height: calc(100vh - 164px - 70px);
+  min-height: calc(100vh - 164px - 60px - 2em);
 }
 
 footer {
   min-height: 40px;
   background-color: #f48466;
   margin-top: 20px;
-  margin-bottom: 10px;
   box-sizing: border-box;
   padding: 8px;
   border-radius: 2px;
