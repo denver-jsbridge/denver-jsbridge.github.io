@@ -1,12 +1,35 @@
 .installStep {
   font-weight: 600;
-  padding-top: 20px;
 }
 
 .installStep:before {
-  content: "-"
+  content: "●";
+  padding-right: 4px;
 }
 
 .installStep--description {
   margin-left: 1.5em;
+}
+
+.install--list {
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.install--listItem {
+  margin-top: 1em;
+}
+
+.install--title {
+  margin-top: 1.5em;
+}
+
+.install--nextPage {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.install--nextPageLink {
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
