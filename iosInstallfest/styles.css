@@ -1,0 +1,12 @@
+.installStep {
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.installStep:before {
+  content: "-"
+}
+
+.installStep--description {
+  margin-left: 1.5em;
+}
