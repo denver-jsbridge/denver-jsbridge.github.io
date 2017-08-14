@@ -19,6 +19,15 @@ header a {
   display: flex;
 }
 
+a {
+  font-weight: 300;
+  color: #96503e;
+}
+
+a:hover {
+  font-weight: normal;
+}
+
 h2 {
   font-weight: 600;
   font-size: 2em;
@@ -60,12 +69,6 @@ footer {
 }
 
 .footer--link {
-  text-decoration: none;
-  color: #444;
   white-space: nowrap;
 }
 
-.footer--link:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
