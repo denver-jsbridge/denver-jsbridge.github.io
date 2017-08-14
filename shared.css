@@ -24,19 +24,37 @@ h2 {
 }
 
 .layout {
-  min-width: 404px;
   max-width: 1000px;
+  width: 100%;
 }
 
 main {
-  min-height: calc(100vh - 164px - 60px - 2em);
+  min-height: calc(100vh - 164px - 80px - 2em);
 }
 
 footer {
   min-height: 40px;
-  background-color: #f48466;
+  border: 8px solid #f48466;
   margin-top: 20px;
   box-sizing: border-box;
   padding: 8px;
-  border-radius: 2px;
+  border-radius: 4px;
+}
+
+.footer--links {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer--link {
+  text-decoration: none;
+  color: #444;
+  white-space: nowrap;
+}
+
+.footer--link:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
