@@ -72,3 +72,7 @@ footer {
   white-space: nowrap;
 }
 
+.footer--link:hover {
+  font-weight: 300;
+}
+

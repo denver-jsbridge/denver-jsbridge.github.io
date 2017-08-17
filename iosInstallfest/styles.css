@@ -32,8 +32,16 @@
 .install--nextPageLink {
   margin-top: 3em;
   margin-bottom: 3em;
+  font-weight: normal;
 }
 
 .install--stepLink {
   font-weight: normal;
+}
+
+.install--image {
+  display: block;
+  max-width: 75%;
+  margin: 1em;
+
 }
