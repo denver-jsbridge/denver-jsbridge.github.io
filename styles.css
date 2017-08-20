@@ -32,7 +32,12 @@
 
 .links--slack {
   height: 2em;
+}
 
+.links--twitter{
+  height: 1em;
+  width: 1em;
+  padding: .5em;
 }
 
 .links--apple {
