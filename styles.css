@@ -16,6 +16,10 @@
   font-size: 1em;
 }
 
+.featuredClass--paragraph {
+  padding: 8px 0;
+}
+
 .featuredClass--link {
   margin-top: 8px;
   display: block;
