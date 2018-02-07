@@ -1,8 +1,11 @@
+.pageHeader {
+  font-size: 0;
+}
+
 .featuredClass {
   border: 6px solid #f48466;
   border-radius: 6px;
   margin-bottom: 20px;
-
 }
 
 .featuredClass--title {
@@ -18,12 +21,36 @@
 
 .featuredClass--paragraph {
   padding: 8px 0;
+  font-size: 18px;
 }
 
 .featuredClass--link {
   margin-top: 8px;
   display: block;
   font-size: 1.5em;
+}
+
+.upcoming {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.upcoming--item {
+  display: flex;
+}
+
+.upcoming--date {
+  font-weight: 600;
+  margin-right: 6px;
+  width: 110px;
+  align-self: center;
+  display: flex;
+}
+
+.upcoming--event {
+  margin-left: 10px;
+  align-self: center;
 }
 
 .links--item {
@@ -38,7 +65,7 @@
   height: 2em;
 }
 
-.links--twitter{
+.links--twitter, .links--javascript {
   height: 1em;
   width: 1em;
   padding: .5em;
