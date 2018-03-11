@@ -52,6 +52,15 @@
   align-self: center;
 }
 
+.upcoming--details {
+  color: #666;
+  font-size: 16px;
+}
+
+.upcoming--emphasis {
+  font-weight: 600;
+}
+
 .links--item {
   display: flex;
 }
