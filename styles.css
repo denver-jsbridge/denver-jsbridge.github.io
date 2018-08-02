@@ -63,10 +63,12 @@
 
 .links--item {
   display: flex;
+  align-items: center;
 }
 
 .links--link {
   font-size: 1.3em;
+  padding-right: 6px;
 }
 
 .links--slack {
